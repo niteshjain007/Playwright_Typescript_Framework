@@ -13,9 +13,9 @@ test("LoginWithValidCridential", async({page}) => {
     await homePageObj.clickOnSignIn();
     await delay(3000);
     const loginPageObj = new LoginPage(page);
-    loginPageObj.fillEmailValue();
-    loginPageObj.fillPAsswordValue();
-    loginPageObj.clickOnLoginBtn();
+    await  loginPageObj.fillEmailValue();
+   await loginPageObj.fillPAsswordValue();
+   await  loginPageObj.clickOnLoginBtn();
 
     await delay(3000);
 

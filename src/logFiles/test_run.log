@@ -37,3 +37,330 @@ Call log:
 [2m  - retrying click action[22m
 [2m    - waiting 500ms[22m
 
+2025-02-26T23:32:06+05:30 [info]: navigate to home page
+2025-02-26T23:32:18+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:32:24+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Browser logs:
+
+<launching> C:\Users\njain\AppData\Local\ms-playwright\chromium-1155\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=C:\Users\njain\AppData\Local\Temp\playwright_chromiumdev_profile-RQBww0 --remote-debugging-pipe --no-startup-window
+<launched> pid=28196
+[pid=28196] <gracefully close start>
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+
+2025-02-26T23:34:31+05:30 [info]: navigate to home page
+2025-02-26T23:34:37+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:34:43+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Browser logs:
+
+<launching> C:\Users\njain\AppData\Local\ms-playwright\chromium-1155\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=C:\Users\njain\AppData\Local\Temp\playwright_chromiumdev_profile-t82V9J --remote-debugging-pipe --no-startup-window
+<launched> pid=27988
+[pid=27988] <gracefully close start>
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+
+2025-02-26T23:36:00+05:30 [info]: navigate to home page
+2025-02-26T23:36:03+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:36:09+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - <div class=" css-1hwfws3">…</div> from <div id="password" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2025-02-26T23:38:52+05:30 [info]: navigate to home page
+2025-02-26T23:38:55+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:39:01+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    4 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - <div class=" css-1hwfws3">…</div> from <div id="password" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2025-02-26T23:39:44+05:30 [info]: navigate to home page
+2025-02-26T23:39:47+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:39:53+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    4 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - <div class=" css-1hwfws3">…</div> from <div id="password" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2025-02-26T23:42:19+05:30 [info]: navigate to home page
+2025-02-26T23:42:22+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:42:25+05:30 [info]: lgin button clicked
+2025-02-26T23:45:35+05:30 [info]: navigate to home page
+2025-02-26T23:45:38+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:45:44+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    4 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - <div class=" css-1hwfws3">…</div> from <div id="password" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2025-02-26T23:47:55+05:30 [info]: navigate to home page
+2025-02-26T23:47:58+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:48:04+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <span>Password for all users</span> from <div id="password" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2025-02-26T23:49:37+05:30 [info]: navigate to home page
+2025-02-26T23:49:43+05:30 [info]: sign button clicked, navigating to product page
+2025-02-26T23:49:49+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Browser logs:
+
+<launching> C:\Users\njain\AppData\Local\ms-playwright\chromium-1155\chrome-win\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,ThirdPartyStoragePartitioning,LensOverlay,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --no-sandbox --user-data-dir=C:\Users\njain\AppData\Local\Temp\playwright_chromiumdev_profile-pk8VE9 --remote-debugging-pipe --no-startup-window
+<launched> pid=2624
+[pid=2624] <gracefully close start>
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+
+2025-03-01T01:26:09+05:30 [info]: navigate to home page
+2025-03-01T01:26:12+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T01:26:18+05:30 [error]: error on login button: Error: locator.click: Test ended.
+Call log:
+[2m  - waiting for locator('button#login-btn')[22m
+[2m    - locator resolved to <button type="submit" id="login-btn" class="Button_root__24MxS Button_slim__2caxo">Log In</button>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    4 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="-1" class=" css-yt9ioa-option" id="react-select-2-option-0-1">image_not_loading_user</div> from <div id="username" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+[2m    - <div class=" css-1hwfws3">…</div> from <div id="password" class=" css-2b097c-container">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2025-03-01T01:27:12+05:30 [info]: navigate to home page
+2025-03-01T01:27:15+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T01:27:28+05:30 [info]: lgin button clicked
+2025-03-01T01:28:06+05:30 [info]: navigate to home page
+2025-03-01T01:28:09+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T01:28:21+05:30 [info]: lgin button clicked
+2025-03-01T01:32:45+05:30 [info]: navigate to home page
+2025-03-01T01:32:45+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T01:32:54+05:30 [info]: lgin button clicked
+2025-03-01T02:15:56+05:30 [info]: navigate to home page
+2025-03-01T02:15:56+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T02:16:06+05:30 [info]: lgin button clicked
+2025-03-01T14:13:32+05:30 [info]: navigate to home page
+2025-03-01T14:13:34+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T14:13:45+05:30 [info]: lgin button clicked
+2025-03-01T14:14:38+05:30 [info]: navigate to home page
+2025-03-01T14:14:40+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T14:14:52+05:30 [info]: lgin button clicked
+2025-03-01T15:50:14+05:30 [info]: navigate to home page
+2025-03-01T15:50:15+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T15:50:24+05:30 [info]: lgin button clicked
+2025-03-01T15:53:26+05:30 [info]: navigate to home page
+2025-03-01T15:53:27+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T15:53:36+05:30 [info]: lgin button clicked
+2025-03-01T16:04:33+05:30 [info]: navigate to home page
+2025-03-01T16:04:35+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T16:04:46+05:30 [info]: login button clicked
+2025-03-01T16:05:20+05:30 [info]: navigate to home page
+2025-03-01T16:05:22+05:30 [info]: sign button clicked, navigating to product page
+2025-03-01T16:05:34+05:30 [info]: login button clicked
