@@ -1,0 +1,89 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: add to cart and fill shipping address from faker data
+- Location: D:\gitRepo\Playwright_Typescript_Framework\src\tests\CheckoutTest.spec.ts:34:5
+
+# Error details
+
+```
+Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('//div[text()=\'undefined\']')
+
+    at LoginPage.fillEmailValue (D:\gitRepo\Playwright_Typescript_Framework\src\pages\LoginPage.ts:24:56)
+    at D:\gitRepo\Playwright_Typescript_Framework\src\tests\CheckoutTest.spec.ts:42:4
+```
+
+# Page snapshot
+
+```yaml
+- img
+- text: option demouser focused, 0 of 1. 5 results available. Use Up and Down to choose options, press Enter to select the currently focused option, press Escape to exit the menu, press Tab to select the option and exit the menu. Select Username
+- textbox
+- text: Accepted usernames are 5 demouser image_not_loading_user existing_orders_user fav_user locked_user Select Password
+- textbox
+- button "Log In"
+```
+
+# Test source
+
+```ts
+   1 | import {Page, expect} from "@playwright/test";
+   2 | import logger from "../utility/LoggerUtil";
+   3 | import AllProductPage from "./AllProductPage";
+   4 |
+   5 | export default class LoginPage{
+   6 |
+   7 |     private readonly userNameDropdown = "#username";
+   8 |     private userFromDropDown:string= "//div[text()='demouser']";
+   9 |     private readonly passwordDropdown = "#password";
+  10 |     private readonly passwordFromDropDown= "//div[text()='testingisfun99']";
+  11 |     private readonly loginBtn= "button#login-btn";
+  12 |
+  13 |      constructor(private page:Page){
+  14 |         let username= process.env.user!;
+  15 |       //  this.userFromDropDown = this.userFromDropDown.replace('demouser',username);
+  16 |       this.userFromDropDown = "//div[text()='"+username+"']";
+  17 |     }
+  18 |
+  19 |     async fillEmailValue(){
+  20 |         await this.page.locator(this.userNameDropdown).click();
+  21 |         await this.page.waitForTimeout(2000);
+  22 |
+  23 |        console.log(this.userFromDropDown);
+> 24 |         await this.page.locator(this.userFromDropDown).click();
+     |                                                        ^ Error: locator.click: Test timeout of 30000ms exceeded.
+  25 |         //await this.page.waitForTimeout(2000);
+  26 |     }
+  27 |
+  28 |     
+  29 |     async fillPAsswordValue(){
+  30 |         console.log(this.passwordFromDropDown);
+  31 |         await this.page.locator(this.passwordDropdown).click({delay:5000});
+  32 |
+  33 |         await this.page.locator(this.passwordFromDropDown).click({delay:2000});
+  34 |     }
+  35 |
+  36 |     async clickOnLoginBtn()
+  37 |     {
+  38 |         await this.page.locator(this.loginBtn)
+  39 |         .click()
+  40 |         .catch((error)=>{
+  41 |                 console.log(`error on login button: ${error}`);
+  42 |                 logger.error(`error on login button: ${error}`);
+  43 |                 throw error;
+  44 |         }).then(()=>{
+  45 |                 logger.info("login button clicked")
+  46 |         });
+  47 |                
+  48 |         const allProductPageObj = new AllProductPage(this.page);
+  49 |         return allProductPageObj;
+  50 |     }
+  51 | }
+```
