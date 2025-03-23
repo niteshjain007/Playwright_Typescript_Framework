@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "system_user",
+      "value": "yes",
+      "domain": "test.techlift.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "user_image",
+      "value": "",
+      "domain": "test.techlift.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "sid",
+      "value": "a51277bb6f241e67fb09435df9a4452f2c2bbdca52d5d4af0a20c1bc",
+      "domain": "test.techlift.in",
+      "path": "/",
+      "expires": 1742378897,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "full_name",
+      "value": "testology%20learning",
+      "domain": "test.techlift.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "user_id",
+      "value": "testology.qa.learning%40gmail.com",
+      "domain": "test.techlift.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}
