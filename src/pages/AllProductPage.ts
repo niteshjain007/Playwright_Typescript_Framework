@@ -5,13 +5,13 @@ export default class AllProductPage{
     constructor(private page : Page){}
 
     private readonly usernameProfile = "span[class='username']";
-
     private readonly checkoutBtn = "//div[@class='buy-btn' and text()='Checkout']";
-
     private modulesLabel = "//div[text()='Modules']";
-    async veifyDeskPage()
+    private logoutLink = "//span[@role='link' and text()='Logout']";
+
+    async veifyLogoutLinkPresent()
     {
-        await expect(this.page).toHaveURL("desk")
+        await expect(this.page.locator(this.logoutLink)).toBeVisible();
     }
 
     async usernameProfileISPresent(uname:string){
