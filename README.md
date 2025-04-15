@@ -21,5 +21,4 @@ For Playwright npx playwright install
 Clone this Reprository
 Make Sure you have Cloned the repo in the right directory.
 
-Clone the repo
-git clone [https://github.com/yourusername/hownow-test-automation](https://github.com/niteshjain007/Playwright_Typescript_Framework).git
+
