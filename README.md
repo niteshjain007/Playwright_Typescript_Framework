@@ -21,4 +21,6 @@ For Playwright npx playwright install
 Clone this Reprository
 Make Sure you have Cloned the repo in the right directory.
 
+just to check CI
+
 
