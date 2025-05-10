@@ -1,0 +1,3 @@
+2025-03-07T23:28:05+05:30 [info]: navigate to home page
+2025-03-07T23:28:08+05:30 [info]: sign button clicked, navigating to product page
+//div[text()='undefined']
